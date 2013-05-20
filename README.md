@@ -4,7 +4,6 @@ MMP_CodeViewer
 This library can be used for displaying code blocks in your iOS app in a well formatted manner
 
 ##Steps:
----------
 
 1. Add the `libMMPCodeViewer.a` and Include folder to your project
 2. Import the MMPCodeViewer.h , using `#import "MMPCodeViewer.h"`
@@ -31,6 +30,7 @@ MMPCodeViewer *codeContainer = [[MMPCodeViewer alloc] initWithFrame:CGRectMake(0
 
 ###Adding data
 For setting data there is two methods available
+
 1. `- (void)readFileData:(NSString *)filePath;`		//Reads the data from file, pass the path as argument (Reads from bundle as well as document directory
 2. `- (void)displayData:(NSString *)dataAsString;`      //This method receives the code string as it's argument
 
